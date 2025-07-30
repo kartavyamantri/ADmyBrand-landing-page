@@ -6,13 +6,18 @@ export interface Feature {
   color: string
 }
 
+export interface PricingFeature {
+  text: string
+  disabled?: boolean
+}
+
 export interface PricingTier {
   id: string
   name: string
   price: number
   period: 'month' | 'year'
   description: string
-  features: string[]
+  features: PricingFeature[]
   popular?: boolean
   cta: string
 }
