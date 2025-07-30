@@ -23,8 +23,8 @@ A stunning, modern landing page for "ADmyBRAND AI Suite" - an AI-powered marketi
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd admybrand-ai-suite
+   git clone https://github.com/kartavyamantri/ADmyBrand-landing-page
+   cd ADmyBrand-landing-page
    ```
 
 2. **Install dependencies**
@@ -128,48 +128,14 @@ npm run type-check   # Run TypeScript type checking
 5. **FAQ**: Collapsible questions and answers
 6. **Footer**: Links, social media, and contact information
 
-## 🔧 Customization
 
-### Colors
-Edit `tailwind.config.js` to customize the color palette:
-
-```javascript
-colors: {
-  primary: {
-    500: '#0ea5e9',
-    // ... other shades
-  },
-  secondary: {
-    500: '#d946ef',
-    // ... other shades
-  }
-}
 ```
-
-### Content
-Update the data files in the `data/` directory:
-- `features.ts` - Modify feature descriptions and icons
-- `pricing.ts` - Update pricing tiers and features
-- `testimonials.ts` - Add/remove customer testimonials
-- `faq.ts` - Update frequently asked questions
 
 ### Styling
 - Global styles: `app/globals.css`
 - Component styles: Individual component files
 - Tailwind utilities: Use Tailwind classes directly
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy automatically
-
-### Other Platforms
-```bash
-npm run build
-npm run start
-```
 
 ## 📦 Dependencies
 
@@ -204,22 +170,4 @@ npm run start
 - **Font Optimization**: Google Fonts with display swap
 - **Bundle Analysis**: Built-in bundle analyzer
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🆘 Support
-
-For support, email hello@admybrand.com or create an issue in the repository.
-
 ---
-
-**Built with ❤️ using Next.js 14+, TypeScript, and Tailwind CSS** 
